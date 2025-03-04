@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .introduce{
+        background-color: rgb(24, 156, 31);
+        color: white;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 15px;   
+    }
+    .introduce span{
+        padding: 10px;
+    }
+    .left{
+        
+        background-color: rgb(225, 225, 225);
+        border: 1px solid black;
+        width: 300px;
+        height: 400px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .top, .bottom{
+        margin-left: 10px;
+    }
+    .body{
+        display: flex;
+    }
+    img{
+        width: 200px;
+        height: 100px;
+    }
+    hr {
+        width: 100vw; 
+        margin: 0; 
+    }
+    .right{
+        width: 1000px;
+    }
+    .bot{
+        background-color: rgb(0, 0, 0);
+        text-align: center;
+        height: 30px;
+        padding-top: 3px;
+        padding-bottom: 20px;
+        color: white;
+    }
+</style>
+<body>
+    <div class="introduce">
+        <h2>My Blog</h2>
+        <span><a href="">Home</a></span><span><a href="">Categories</a></span><span><a href="">About</a></span>
+    </div>
+    <div class="body">
+        <div class="left">
+            <h3 style="margin-left: 10px;">Chuyên mục</h3>
+            <ul>
+                <li><a href="">CSS</a></li>
+                <li><a href="">JavaScript</a></li>
+                <li><a href="">HTML</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <div class="top">
+                <h3>Bài Viết 1</h3>
+                <img src="https://radicalhub.com/wp-content/uploads/2018/07/javascript.jpg"/>
+                <p>Đây là nội dung tóm tắt của bài viết 1.</p>
+            </div>
+            <hr>
+            <div class="bottom">
+                <h3>Bài Viết 2</h3>
+                <img src="https://radicalhub.com/wp-content/uploads/2018/07/javascript.jpg"/>
+                <p>Đây là nội dung tóm tắt của bài viết 2.</p>
+            </div>
+        </div>
+
+    </div>
+    <div class="bot">
+        <p>Liên hệ: email@example.com</p>
+    </div>
+</body>
+</html>
